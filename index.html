@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portal da Inovação</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container glass fade-in">
+    <h1 class="header-title">Núcleo de Inovação e Tecnologia</h1>
+    <p class="header-subtitle">Explore nossos projetos e experiências transformadoras</p>
+
+    <input id="search-input" type="text" placeholder="🔍 Busque por projeto ou descrição..." autocomplete="off" />
+
+    <div class="filters fade-in">
+      <button class="filter-btn active" data-category="">Todos</button>
+      <button class="filter-btn" data-category="web">Web</button>
+      <button class="filter-btn" data-category="mobile">Mobile</button>
+      <button class="filter-btn" data-category="dashboard">Dashboard</button>
+      <button class="filter-btn" data-category="chat">Chat</button>
+    </div>
+
+    <section id="projects" class="project-grid fade-in">
+      <!-- Lista de projetos estática -->
+      <div class="project-card fade-in" style="background-image: url('images/nucleo-bg.jpg');">
+        <div class="project-overlay">
+          <h3>Projeto Alpha</h3>
+          <p>Gerenciar tarefas web.</p>
+          <a class="project-link" href="https://exemplo.com/alpha" target="_blank">Acessar projeto</a>
+        </div>
+      </div>
+      <div class="project-card fade-in" style="background-image: url('images/nucleo-bg.jpg');">
+        <div class="project-overlay">
+          <h3>Beta App</h3>
+          <p>Finanças mobile.</p>
+          <a class="project-link" href="https://exemplo.com/beta" target="_blank">Acessar projeto</a>
+        </div>
+      </div>
+      <div class="project-card fade-in" style="background-image: url('images/nucleo-bg.jpg');">
+        <div class="project-overlay">
+          <h3>Gamma Dashboard</h3>
+          <p>Análise de dados.</p>
+          <a class="project-link" href="https://exemplo.com/gamma" target="_blank">Acessar projeto</a>
+        </div>
+      </div>
+      <div class="project-card fade-in" style="background-image: url('images/nucleo-bg.jpg');">
+        <div class="project-overlay">
+          <h3>Delta Chat</h3>
+          <p>Chat em tempo real.</p>
+          <a class="project-link" href="https://exemplo.com/delta" target="_blank">Acessar projeto</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE O NÚCLEO -->
+    <section class="about-section fade-in">
+      <h2>Sobre o Núcleo</h2>
+
+      <div class="carousel" id="carousel-nucleo">
+        <button class="carousel-btn prev">‹</button>
+        <div class="carousel-track">
+          <div class="carousel-item"><img src="images/placeholder-nucleo-1.jpg" alt="Nucleo 1" /></div>
+          <div class="carousel-item"><img src="images/placeholder-nucleo-2.jpg" alt="Nucleo 2" /></div>
+          <div class="carousel-item"><img src="images/placeholder-nucleo-3.jpg" alt="Nucleo 3" /></div>
+        </div>
+        <button class="carousel-btn next">›</button>
+      </div>
+
+      <p>
+        O Núcleo de Inovação e Tecnologia é um grupo interdisciplinar da Unijorge voltado para a criação de soluções
+        práticas e inovadoras. Nosso objetivo é conectar teoria à prática por meio de projetos reais que envolvem
+        áreas como programação, redes, cibersegurança e inteligência artificial.
+      </p>
+    </section>
+  </div>
+
+  <!-- EVENTOS -->
+  <section class="events-section fade-in">
+    <h2>Últimos Eventos</h2>
+
+    <div class="carousel" id="carousel-eventos">
+      <button class="carousel-btn prev">‹</button>
+      <div class="carousel-track">
+        <div class="carousel-item"><img src="images/placeholder-evento-1.jpg" alt="Evento 1" /></div>
+        <div class="carousel-item"><img src="images/placeholder-evento-2.jpg" alt="Evento 2" /></div>
+        <div class="carousel-item"><img src="images/placeholder-evento-3.jpg" alt="Evento 3" /></div>
+      </div>
+      <button class="carousel-btn next">›</button>
+    </div>
+
+    <ul>
+      <li><strong>ExpoUnijorge 2024</strong> – Apresentação dos projetos CashHub e ReciclAI.</li>
+      <li><strong>Semana de Engenharia</strong> – Workshop sobre IA aplicada ao meio ambiente.</li>
+      <li><strong>Feira de Tecnologia e Inovação</strong> – Participação com demonstrações práticas no estande do curso.
+      </li>
+    </ul>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer-section">
+    <div class="footer-content">
+      <p>&copy; 2025 Núcleo de Inovação - Unijorge</p>
+      <p>Email: <a href="mailto:nucleo@unijorge.edu.br">nucleo@unijorge.edu.br</a></p>
+      <p>Instagram: <a href="https://instagram.com/nucleotech" target="_blank">@nucleotech</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
